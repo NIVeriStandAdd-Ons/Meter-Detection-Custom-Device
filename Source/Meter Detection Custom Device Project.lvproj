@@ -64,23 +64,20 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2011/Custom Devices/Meter Detection</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D3E4A078-3006-4E9F-BEA4-7D5B919B7E4C}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2011/Custom Devices/Meter Detection</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2011/Custom Devices/Meter Detection/Data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Meter Detection Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2011/Custom Devices/Meter Detection/Meter Detection Configuration.llb</Property>
-				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Meter Detection Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
-				<Property Name="Destination[3].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2011/Custom Devices/Meter Detection/Glyphs</Property>
-				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Glyphs</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B773FCFC-7B04-44B3-AB07-93BE1EA97947}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{014AC59E-80D7-4550-9CFC-280E47A4129D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Meter Detection Custom Device.lvlib</Property>
@@ -115,20 +112,18 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2011/Custom Devices/Meter Detection</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8F2A24E8-1497-4698-A53B-F416A6506B24}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2011/Custom Devices/Meter Detection</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2011/Custom Devices/Meter Detection/Data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Meter Detection Engine LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2011/Custom Devices/Meter Detection/Meter Detection Engine.llb</Property>
-				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Meter Detection Engine.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B773FCFC-7B04-44B3-AB07-93BE1EA97947}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{014AC59E-80D7-4550-9CFC-280E47A4129D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Meter Detection Custom Device.lvlib</Property>
