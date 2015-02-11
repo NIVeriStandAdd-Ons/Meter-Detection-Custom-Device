@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>Meter Detection</eng>
+    <loc>Meter Detection</loc>
+  </AddMenu>
+  <Version>1.0</Version>
+  <Type>Asynchronous</Type>
+  <MaxOccurrence>2474</MaxOccurrence>
+  <MainPageGUID>8abc71e6-051e-4bd8-bbb5-f60492892749</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Meter Detection\Meter Detection Configuration.llb\Meter Detection Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>PharlapWindows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Meter Detection\Meter Detection Engine.llb\Meter Detection RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Meter Detection\Meter Detection Engine.llb\Meter Detection RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+  <Dependencies />
+  <Pages>
+    <Page>
+      <Name>
+        <eng>Meter Detection</eng>
+        <loc>Meter Detection</loc>
+      </Name>
+      <GUID>8abc71e6-051e-4bd8-bbb5-f60492892749</GUID>
+      <Glyph>
+			  <Type>To Common Doc Dir</Type>
+			  <Path>Custom Devices\Meter Detection\Glyphs\meter.png</Path>
+		  </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		    <Path>Custom Devices\Meter Detection\Meter Detection Configuration.llb\Meter Detection Main Page.vi</Path>
+      </Item2Launch>
+      <ActionVIOnSave>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Meter Detection\Meter Detection Configuration.llb\Meter Detection ActionVIOnSave.vi</Path>
+      </ActionVIOnSave>
+    </Page>
+    
+<Page>
+      <Name>
+        <eng>Meter Value</eng>
+        <loc>Meter Value</loc>
+      </Name>
+      <GUID>25dc664e-5f40-4994-9a12-523fe15305a2</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\Meter Detection\Glyphs\numeric.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		    <Path>Custom Devices\Meter Detection\Meter Detection Configuration.llb\Meter Value.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>Execution Time (msec)</eng>
+        <loc>Execution Time (msec)</loc>
+      </Name>
+      <GUID>66ed530f-2669-461e-b2f5-508ee9997e74</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\Meter Detection\Glyphs\TIMING.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Meter Detection\Meter Detection Configuration.llb\Execution Time.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Current Time (sec)</eng>
+        <loc>Current Time (sec)</loc>
+      </Name>
+      <GUID>8acdcb93-8529-42b6-92bf-d443b1dd904b</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Meter Detection\Glyphs\time.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Meter Detection\Meter Detection Configuration.llb\Current Time.vi</Path>
+      </Item2Launch>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>
